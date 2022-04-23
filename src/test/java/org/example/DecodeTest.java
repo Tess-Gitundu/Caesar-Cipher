@@ -8,13 +8,13 @@ class DecodeTest {
     @Test
     public void userInput_checkIfInputString_true() {
 
-        Encode userInputTest = new Encode(3);
-        assertEquals(true, userInputTest instanceof Encode);
+        Decode userInputTest = new Decode(3);
+        assertEquals(true, userInputTest instanceof Decode);
     }
     @Test
     public void userInput_checkIfInputShifting_booleanTrue() {
 
-        Encode userInputTest = new Encode(3);
-        assertEquals(true, userInputTest instanceof Encode);
+        Decode userInputTest = new Decode(3);
+        assertEquals(true, userInputTest instanceof Decode);
     }
 }
