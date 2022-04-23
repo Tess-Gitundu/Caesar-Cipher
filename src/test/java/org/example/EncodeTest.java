@@ -11,13 +11,13 @@ class EncodeTest {
     @Test
     public void userInput_checkIfInputString_booleanTrue() {
 
-        Encode userInputTest = new Encode("Hello world");
+        Encode userInputTest = new Encode(3);
         assertEquals(true, userInputTest instanceof Encode);
     }
     @Test
     public void userInput_encodeUserInput_ifCorrectlyDecodesTrue() {
 
-        Encode userInputtedText = new Encode("Hello world");
+        Encode userInputtedText = new Encode(4);
         assertEquals(true, userInputtedText instanceof Encode );
     }
 }
