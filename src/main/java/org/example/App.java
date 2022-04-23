@@ -14,5 +14,6 @@ public class App {
         System.out.println("Text to be encoded: " + codedText);
         String answer = decode.getUserPlainTextText(codedText);
         System.out.println("Your encoded message is: " + answer);
+        System.out.println("Your message that was encoded is: " + userInputtedText );
     }
 }
