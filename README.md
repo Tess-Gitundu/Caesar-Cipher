@@ -1,4 +1,4 @@
-# Caesar Cipher
+# Caesar's Cipher
 #### This is an appliction that implements a Caesar cipher, both encoding, and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A).
 #### By Tess Gitundu
 ## Setup/Installation Requirements
