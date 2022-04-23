@@ -20,4 +20,10 @@ class EncodeTest {
         Encode userInputtedText = new Encode(4);
         assertEquals(true, userInputtedText instanceof Encode );
     }
+    @Test
+    public void userInput_shiftingUserChar_ifCorrectlyshifts() {
+
+        Encode userInputtedText = new Encode(4);
+        assertEquals(true, userInputtedText instanceof Encode );
+    }
 }
