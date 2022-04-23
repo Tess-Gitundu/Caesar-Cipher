@@ -18,13 +18,13 @@ public class Decode {
         return shifted(userPlainText, decoder);
     }
 
-//    public String shifted(String original, char[] code) {
-//        char[] text = original.toCharArray();
-//        for (int k = 0; k < text.length; k++)
-//            if (Character.isUpperCase(text[k])) {
-//                int j = text[k] - 'A';
-//                text[k] = code[j];
-//            }
-//        return new String(text);
+    public String shifted(String original, char[] code) {
+        char[] text = original.toCharArray();
+        for (int k = 0; k < text.length; k++)
+            if (Character.isUpperCase(text[k])) {
+                int j = text[k] - 'A';
+                text[k] = code[j];
+            }
+        return new String(text);
     }
 }
